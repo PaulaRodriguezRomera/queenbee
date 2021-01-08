@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+                              
+
+                             /*Header*/
+
+.jumbotron{
+    background: url("home/homejumbo.png"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+}
+
+.jumbotron-coffee{
+    background: url("coffeshop/coffeejumbo.png"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px;  
+}
+
+.jumbotron-about{
+    background: url("about/aboutjumbotest1.png"); 
+     background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+}
+
+.jumbotron-course{
+    background: url("courses/coursejumbo.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px;  
+}
+
+.jumbotron-shop{
+    background-image: url("shop/shopjumbo.png"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+}
+
+.jumbotron-contact{
+    background-image: url("contact/contactjumbo.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+}
+
+
+.jumbo-title {
+    font-family: pacifico; 
+    font-size: 60px; 
+    color: black; 
+    text-align: center; 
+    background-color: #ffffff;
+    opacity: 0.6;  
+    margin-top: 65px;
+}
+
+.jumbo-text {
+    font-family: quicksand; 
+    font-size: 20px; 
+    color: black; 
+    text-align: center; 
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+.nav-link {
+    font-family: quicksand;  
+}
+
+
+                            /*Footer*/
+
+.fa {
+  width: 30px;
+  text-align: center;
+  color: black;
+}
+
+
+
+.social-links {
+  font-size: 25px;
+}
+   
+a {
+  color: black; 
+}
+
+
+.container-fluid {
+    color: black;
+    text-align: center; 
+    border-top: 3px solid; 
+    border-top color: #C48525; 
+    padding: 50px; 
+    background: #F8A82F;
+    background: -webkit-linear-gradient(59deg, #F8A82F, #F9C67A);
+    background: linear-gradient(59deg, #F8A82F, #F9C67A);
+    color: black; 
+    margin-top: 60px;
+}
+
+
+
+.footer-copyright {
+  font-size: 12px;
+  border-top: 1px solid #C48525; 
+  border-bottom: 1px solid #C48525; 
+  color:aliceblue; 
+  text-align: center; 
+  margin-top: 50px;
+  margin-bottom: 50px; 
+}
+ 
+
+footer h4 {
+ font-size: 90%; 
+}
+
+
+footer h3 {
+ font-size: 120%;
+}
+
+
+
+
+                             /*Home*/
+
+.card-title {
+ text-align: center;
+ font-family: pacifico; 
+ padding-top: 10px; 
+ padding-bottom: 10px; 
+ font-size: 1.5em; 
+}
+
+.card-text {
+ font-family: quicksand; 
+ padding-left: 10px; 
+ padding-right: 10px; 
+ padding-bottom: 10px;
+ font-size: 18px; 
+ text-align: center; 
+}
+
+.card-body {
+ text-align: center; 
+}
+
+
+.card {
+ text-align: center; 
+ border: 3px solid;
+ border-color: #F8A82F; 
+ margin-bottom: 10px; 
+ margin-top: 20px; 
+ width: 100%;  
+ height: 100%; 
+}
+
+
+
+.sizer {
+ padding: 80px;
+ position: static; 
+ padding-top: 60px; 
+ padding-bottom: 30px; 
+}
+
+h1 {
+  font-family: pacifico; 
+  font-size: 40px; 
+  padding-top: 20px; 
+  padding-bottom: 10px; 
+  color: #F8A82F; 
+  text-align: center; 
+}
+
+h5{
+    font-family: pacifico;
+    text-align: center;
+}
+
+p{
+    font-family: quicksand; 
+    text-align: center;
+}
+
+
+  
+
+                             /*About*/
+
+.about-bee{
+    width: 350px; 
+    height: 246px; 
+
+}
+
+.box{
+    width: 350px; 
+    height: 246px; 
+    background-color: #F9C67A; 
+}
+
+
+.about{
+    border: 5px solid  #F8A82F; 
+}
+
+
+
+
+                          /*Coffee Shop*/
+
+.menu-title{
+    font-family: pacifico; 
+    font-size: 150%; 
+
+}
+
+
+.menu-text {
+    font-family: quicksand; 
+    border-color: transparent; 
+}
+
+
+                             /*Shop*/
+
+.carousel {
+    text-align: center;
+    margin: 40px;  
+}
+
+.carousel-text {
+    font-style: italic; 
+}
+
+.list-group{
+  font-family: quicksand; 
+  flex-wrap: wrap;  
+}
+
+.btn {
+    background-color: #F8A82F; 
+    color: black; 
+    font-family: quicksand;
+    margin-top: 10px;  
+}
+
+
+.products h1 {
+    color: black; 
+    font-family: quicksand; 
+    text-align: left; 
+    padding-top: 50px;  
+}
+
+
+                             /*Contact*/
+
+.opening {
+    font-family: quicksand; 
+    padding-top: 40px; 
+}
+
+.contact-title {
+    font-family: pacifico; 
+    font-size: 30px;
+    color: #F8A82F;  
+    padding-bottom: 10px;  
+}
+
+.contact-text {
+    font-family: quicksand; 
+}
+
+
+.opening-title {
+    font-family: pacifico; 
+    font-size: 25px; 
+}
+
+
+.form-group{
+    text-align: left; 
+    margin: auto; 
+    margin-bottom: 30px; 
+}
+
+                            /*Google map*/
+
+.map-responsive{
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin-top: 30px; 
+    border-color: black; 
+}
+
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    
+.jumbotron {
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+    
+.container text-center{
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+    
+}
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+    
+.jumbotron {
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+    
+.container text-center{
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+    
+.jumbotron {
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+
+.container text-center{
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    
+.jumbotron {
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+.jumbotron {
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+    
+
+.container text-center{
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+
+.jumbotron {
+    min-width: 80%; 
+    max-width: 100%; 
+    }
+
+}
+
