@@ -87,11 +87,13 @@
 }
 
 
-
 .social-links {
   font-size: 25px;
 }
-   
+  
+.social-links p {
+    font-size: 10px; 
+}
 a {
   color: black; 
 }
@@ -102,7 +104,7 @@ a {
     text-align: center; 
     border-top: 3px solid; 
     border-top color: #C48525; 
-    padding: 50px; 
+    padding: 20px; 
     background: #F8A82F;
     background: -webkit-linear-gradient(59deg, #F8A82F, #F9C67A);
     background: linear-gradient(59deg, #F8A82F, #F9C67A);
@@ -110,30 +112,46 @@ a {
     margin-top: 60px;
 }
 
-
-
-.footer-copyright {
-  font-size: 12px;
-  border-top: 1px solid #C48525; 
-  border-bottom: 1px solid #C48525; 
-  color:aliceblue; 
-  text-align: center; 
-  margin-top: 50px;
-  margin-bottom: 50px; 
-}
- 
-
-footer h4 {
- font-size: 90%; 
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #F8A82F;
+  border-radius: 10px; 
+  box-sizing: border-box;
+  font-family: quicksand; 
+  background-color: #f4ebde; 
 }
 
 
-footer h3 {
- font-size: 120%;
+input[type=submit] {
+  background-color: #f4ebde;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px; 
+  font-family: quicksand; 
+  font-size: 18px; 
 }
 
+input[type=submit]:hover {
+  opacity: 0.8;
+}
 
+form h2 {
+  font-family: quicksand; 
+  font-size: 25px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+}
 
+footer h5 {
+  font-family: quicksand; 
+  font-size: 18px; 
+}
+
+.address {
+    padding-top: 20px; 
+}
 
                              /*Home*/
 
@@ -207,8 +225,21 @@ p{
     border: 5px solid  #F8A82F;  
 }
 
+.aboutintro {
+    font-size: 32px; 
+    font-family: quicksand; 
+}
 
+.about .card-text {
+    font-size: 18px; 
+    padding-top: 30px; 
+}
 
+.about .card-title {
+    padding-top: 50px; 
+    padding-bottom: 0px; 
+    font-size: 38px; 
+}
 
                           /*Coffee Shop*/
 
@@ -368,7 +399,7 @@ p{
 }
 
 /* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px){
     
 .jumbotron {
     min-width: 80%; 
@@ -381,6 +412,22 @@ p{
     max-width: 100%; 
     }
     
+.about .card-text {
+    font-size: 14px; 
+    padding-top: 10px; 
+}
+
+.about .card-title {
+    padding-top: 10px; 
+    font-size: 28px; 
+}
+    
+.minibee {
+    width: 10%; 
+    height: 10%; 
+    }
+    
+}
 
 /* #### Desktops #### */
 @media screen and (min-width: 1024px){
