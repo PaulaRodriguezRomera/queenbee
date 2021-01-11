@@ -78,8 +78,7 @@
     font-family: quicksand;  
 }
 
-
-                            /*Footer*/
+                    /*Footer*/
 
 .fa {
   width: 30px;
@@ -151,7 +150,7 @@ footer h3 {
  padding-left: 10px; 
  padding-right: 10px; 
  padding-bottom: 10px;
- font-size: 18px; 
+ font-size: 14px; 
  text-align: center; 
 }
 
@@ -203,21 +202,9 @@ p{
 
                              /*About*/
 
-.about-bee{
-    width: 350px; 
-    height: 246px; 
-
-}
-
-.box{
-    width: 350px; 
-    height: 246px; 
-    background-color: #F9C67A; 
-}
-
 
 .about{
-    border: 5px solid  #F8A82F; 
+    border: 5px solid  #F8A82F;  
 }
 
 
@@ -237,6 +224,11 @@ p{
     border-color: transparent; 
 }
 
+
+                            /*Courses*/
+.details{
+    font-size: 14px; 
+}
 
                              /*Shop*/
 
@@ -269,7 +261,9 @@ p{
     padding-top: 50px;  
 }
 
-
+.products .card-title{
+    font-size: 18px; 
+}
                              /*Contact*/
 
 .opening {
@@ -333,7 +327,7 @@ p{
     min-width: 80%; 
     max-width: 100%; 
     }
-    
+       
 }
 /* #### Mobile Phones Landscape #### */
 @media screen and (max-device-width: 640px) and (orientation: landscape){
@@ -370,6 +364,7 @@ p{
     min-width: 80%; 
     max-width: 100%; 
     }
+
 }
 
 /* #### Tablets Portrait or Landscape #### */
@@ -385,7 +380,7 @@ p{
     min-width: 80%; 
     max-width: 100%; 
     }
-}
+    
 
 /* #### Desktops #### */
 @media screen and (min-width: 1024px){
