@@ -289,6 +289,13 @@ p{
     opacity: 0.9; 
 }
 
+input .btn {
+    background-color: #F8A82F; 
+    color: black; 
+    font-family: quicksand;
+    margin-top: 10px; 
+}
+
 .products h1 {
     color: black; 
     font-family: quicksand; 
