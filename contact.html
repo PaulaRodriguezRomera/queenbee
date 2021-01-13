@@ -58,25 +58,20 @@
     
 <!--Contact form-->
       
-  <form name="contact" method="POST" data-netlify="true">
- 
+<form name="contact" method="POST" data-netlify="true"> 
     <div class="form-group">
-      <label for="firstname">First Name</label>
-      <input type="text" id="firstname" name="firstname" class="form-control" required/>
+        <label>First Name*</label>
+        <input type="text" name="name" id="name" placeholder="Name" class="form-control" required/> 
     </div>
- 
-    <div class="form-group">
-      <label for="email">Email address</label>
-      <input type="email" id="email" name="email" class="form-control" required/>
+    <div class="form-group"> 
+        <label>Email address*</label>
+        <input type="email" name="email" id="email" placeholder="Email" class="form-control" required/>
     </div>
- 
-    <div class="message">
-      <label class="message">Go ahead we are listening<textarea name="message" rows="10" cols="40" required></textarea></label>
-    </div>
- 
-    
-    <input class="btn" type="submit" value="Submit">
- 
+    <div class="form-group"> 
+        <label>Go ahead we are listening*</label>
+        <textarea name="message" id="message" placeholder="Message" rows="7" class="form-control" required></textarea>
+    </div> 
+    <button type="button" class="btn">Submit</button>
 </form>
       
         
