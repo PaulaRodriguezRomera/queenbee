@@ -7,7 +7,7 @@
                              /*Header*/
 
 .jumbotron{
-    background: url("home/homejumbo.png"); 
+    background: url("home/homejumbo.jpeg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
@@ -15,7 +15,7 @@
 }
 
 .jumbotron-coffee{
-    background: url("coffeshop/coffeejumbo.png"); 
+    background: url("coffeshop/coffeejumbo.jpeg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
@@ -23,7 +23,7 @@
 }
 
 .jumbotron-about{
-    background: url("about/aboutjumbotest1.png"); 
+    background: url("about/aboutjumbotest1.jpeg"); 
      background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
@@ -31,7 +31,7 @@
 }
 
 .jumbotron-course{
-    background: url("courses/coursejumbo.jpg"); 
+    background: url("courses/coursejumbo.jpeg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
@@ -39,7 +39,7 @@
 }
 
 .jumbotron-shop{
-    background-image: url("shop/shopjumbo.png"); 
+    background-image: url("shop/shopjumbo.jpeg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
@@ -47,7 +47,7 @@
 }
 
 .jumbotron-contact{
-    background-image: url("contact/contactjumbo.jpg"); 
+    background-image: url("contact/contactjumbo.jpeg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
