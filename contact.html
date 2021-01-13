@@ -58,7 +58,7 @@
     
 <!--Contact form-->
    
-<form action="POST" data-netlify="true">
+<form>
   <div class="form-group">
     <label>First Name*</label>
     <input type="text" name="name" class="form-control">
@@ -81,7 +81,19 @@
     
 <button type="button" class="btn">Submit</button>      
 </form> 
-        
+     
+<form name="contact" method="POST" data-netlify="true">
+    <div class="form-group">
+        <input type="text" name="name" id="name" placeholder="Name" class="form-control"/> 
+    </div>
+    <div class="form-group"> 
+        <input type="email" name="email" id="email" placeholder="Email" class="form-control"/>
+    </div>
+    <div class="form-group"> 
+        <textarea name="message" id="message" placeholder="Message" rows="7" class="form-control"></textarea>
+    </div> 
+    <button type="button" class="btn">Submit</button>
+</form>
       
         
 <!--Google maps-->
