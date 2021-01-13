@@ -100,13 +100,10 @@ a {
 
 
 .container-fluid {
-    color: black;
     text-align: center; 
     border-top: 3px solid; 
-    border-top color: #C48525; 
     padding: 20px; 
     background: #F8A82F;
-    background: -webkit-linear-gradient(59deg, #F8A82F, #F9C67A);
     background: linear-gradient(59deg, #F8A82F, #F9C67A);
     color: black; 
     margin-top: 60px;
@@ -351,7 +348,7 @@ p{
 
 
 /* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
+@media screen and (max-width: 480px) and (orientation: portrait){
     
 .jumbotron {
     min-width: 80%; 
@@ -380,7 +377,7 @@ p{
          
 }
 /* #### Mobile Phones Landscape #### */
-@media screen and (max-device-width: 640px) and (orientation: landscape){
+@media screen and (max-width: 640px) and (orientation: landscape){
     
 .jumbotron {
     min-width: 80%; 
@@ -409,7 +406,7 @@ p{
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 640px){
     
 .jumbotron {
     min-width: 80%; 
@@ -439,7 +436,7 @@ p{
 }
 
 /* #### iPhone 4+ Portrait or Landscape #### */
-@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
     
 .jumbotron {
     min-width: 80%; 
@@ -465,7 +462,7 @@ p{
 
 
 /* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     
 .jumbotron {
     min-width: 80%; 
