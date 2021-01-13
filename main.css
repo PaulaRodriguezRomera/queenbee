@@ -130,11 +130,24 @@ input[type=submit] {
   font-size: 18px; 
 }
 
+
 input[type=submit]:hover {
   opacity: 0.8;
 }
 
-form h2 {
+input[type=email] {
+  background-color: #f4ebde;;
+  border-radius: 10px; 
+  font-family: quicksand; 
+  font-size: 18px; 
+    
+}
+
+form {
+    padding-top: 15px; 
+}
+
+.newsletter h2 {
   font-family: quicksand; 
   font-size: 25px; 
   padding-top: 10px; 
