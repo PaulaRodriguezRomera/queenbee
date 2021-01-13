@@ -282,9 +282,12 @@ p{
     background-color: #F8A82F; 
     color: black; 
     font-family: quicksand;
-    margin-top: 10px;  
+    margin-top: 10px; 
 }
 
+.btn:hover {
+    opacity: 0.9; 
+}
 
 .products h1 {
     color: black; 
