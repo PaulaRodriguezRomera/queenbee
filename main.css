@@ -63,6 +63,8 @@
     background-color: #ffffff;
     opacity: 0.6;  
     margin-top: 65px;
+    padding-top: 10px; 
+    padding-bottom: 20px; 
 }
 
 .jumbo-text {
@@ -230,6 +232,13 @@ p{
     text-align: center;
 }
 
+h3 {
+   font-family: quicksand; 
+   text-align: center;
+   padding-top: 10px; 
+   padding-bottom: 10px; 
+   font-weight:400;  
+}
 
   
 
@@ -270,14 +279,6 @@ p{
     border-color: transparent; 
 }
 
-
-                            /*Courses*/
-.details{
-    font-size: 14px; 
-}
-
-                             /*Shop*/
-
 .carousel {
     text-align: center;
     margin: 40px;  
@@ -286,6 +287,14 @@ p{
 .carousel-text {
     font-style: italic; 
 }
+
+                            /*Courses*/
+.details{
+    font-size: 14px; 
+}
+
+                             /*Shop*/
+
 
 .list-group{
   font-family: quicksand; 
@@ -314,13 +323,17 @@ input .btn {
     color: black; 
     font-family: quicksand; 
     text-align: left; 
-    padding-top: 50px;  
+    padding-top: 40px;
+    padding-bottom: 10px; 
 }
 
 .products .card-title{
     font-size: 18px; 
 }
-                             /*Contact*/
+     
+
+
+                                           /*Contact*/
 
 .opening {
     font-family: quicksand; 
